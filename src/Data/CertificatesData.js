@@ -1,7 +1,7 @@
 let certificationsList=[
     {
         title:"Web Development BootCamp",
-        instructor:"Angela Yu",
+        instructor:"Angelaa Yu",
         link:"#",
         platform:'udemy'
     },
