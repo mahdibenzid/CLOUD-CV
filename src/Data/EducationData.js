@@ -23,7 +23,7 @@ const languagesDone = [
 const EducationData={
     collegeName:"UVT",
     courseName:"MP2L",
-    couseStartYear:"2022023",
+    couseStartYear:"2023",
     courseEndYear:"Present",
     details:[
         'UVT.',
