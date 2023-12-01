@@ -32,7 +32,7 @@ function Home(props) {
                 <h1 className={classes.greeting}>
                     Bienvenu cher recruteur !
                 </h1>
-                <h2>I'm &nbsp;<span id="name" style={{ color: uiColor }}>{PersonalData.firstName}&nbsp;{PersonalData.lastName}</span></h2>
+                <h2>je suis &nbsp;<span id="name" style={{ color: uiColor }}>{PersonalData.firstName}&nbsp;{PersonalData.lastName}</span></h2>
                 <h3 style={{ color: nonThemeColor }}>
                     {PersonalData.nickName}
                 </h3>
