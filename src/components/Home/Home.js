@@ -39,7 +39,7 @@ function Home(props) {
                 <div className={classes.autoText}>
                     Je suis un &nbsp; <span id="typer" style={{ color: uiColor }}></span>
                 </div>
-                <p className={classes.connectText}>Feel free to <span style={{ color: uiColor }}>connect</span> with me.</p>
+                <p className={classes.connectText}>merci de contacter <span style={{ color: uiColor }}>connect</span> with me.</p>
                 <SocialLinks className={classes.links} />
             </div>
             <div className={classes.avatarImage}>
