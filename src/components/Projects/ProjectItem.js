@@ -30,7 +30,7 @@ const ProjectItem = (props) => {
                     {/* <a target="_blank" rel="noreferrer" href={props.project.sourceLink} style={{color:'orange'}}><StarIcon fontSize="large" /></a> */}
                     <a target="_blank" rel="noreferrer" href={props.project.sourceLink} style={{color:nonThemeColor}}><GitHubIcon fontSize="large" /></a>
                 </div>
-                <p className={classes.dateUpdated} style={{color:nonThemeColor}}>Last Updated On : {props.project.lastUpdated}</p>
+                <p className={classes.dateUpdated} style={{color:nonThemeColor}}>derniere modification: {props.project.lastUpdated}</p>
             </div>
         </Card>
     )

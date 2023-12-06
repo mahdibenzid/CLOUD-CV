@@ -1,25 +1,25 @@
 let certificationsList=[
     {
-        title:"Web Development BootCamp",
+        title:"certifications Cisco",
         instructor:"Angelaa Yu",
         link:"#",
         platform:'udemy'
     },
     {
         title:"React Js",
-        instructor:"Maximilian Schwarzmuller",
+        instructor:"Maximilian ",
         link:"#",
         platform:'udemy'
     },
     {
-        title:"Flutter Development",
-        instructor:"Maximilian Schwarzmuller",
+        title:"oracle cloud certification",
+        instructor:"Schwarzmuller",
         link:"#",
         platform:'udemy'
     },
     {
         title:"Node Js",
-        instructor:"Maximilian Schwarzmuller",
+        instructor:"abou 3oubayda",
         link:"#",
         platform:'udemy'
     }

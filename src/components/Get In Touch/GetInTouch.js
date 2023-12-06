@@ -28,8 +28,8 @@ const GetInTouch = (props) => {
     return (
         <div className={classes.getInTouch} style={{borderColor:uiColor}}>
             <div className={classes.getInTouchCard}>
-                <h1 style={{color:nonThemeColor}}>Get In Touch</h1>
-                <p>I would love to hear from you, so whether you need a quote, have a question or just want to say hello, please feel free to drop me a line.</p>
+                <h1 style={{color:nonThemeColor}}>Entrer en contact</h1>
+                <p>J'aimerais avoir de vos nouvelles, alors si vous avez besoin d'un devis, si vous avez une question ou si vous voulez simplement me dire bonjour, n'hésitez pas à m'écrire.</p>
                 <div>
                     {contactDetails}
                 </div>

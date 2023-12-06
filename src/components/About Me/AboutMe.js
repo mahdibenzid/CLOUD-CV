@@ -26,7 +26,7 @@ const AboutMe = () => {
                         <SocialLinks className={classes.links} />
                     </div>
                     <a href={PersonalData.resumeLink}>
-                        <Button className={classes.resumeBtn}>See My Resume</Button>
+                        <Button className={classes.resumeBtn}>Observer mon parcours</Button>
                     </a>
                 </div>
             </div>

@@ -22,11 +22,11 @@ const Projects = (props) => {
                 </section>
                 <section className={styles.projectHeader}>
                     <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
-                    <div>My works makes use of vast variety of latest technology tools. My best experience is to create React projects and deploy them to web applications using Github Pages.</div>
+                    <div>Mes œuvres utilisent une grande variété d’outils technologiques les plus récents. Ma meilleure expérience est de créer des projets React et de les déployer sur des applications Web à l'aide des pages Github.</div>
                 </section>
             </div>
             <ProgrammingSkills />
-            <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>My Projects</h1>
+            <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>Mes projets</h1>
             <div className={styles.projectList}>
                 {projects.map((item, index) => {
                     return <ProjectItem key={index} project={item} />
@@ -34,7 +34,7 @@ const Projects = (props) => {
             </div>
             <div className={styles.moreProject}>
                 <a target="_blank" rel="noreferrer" href={`${SocialData.githubLink}?tab=repositories`}>
-                    <Button className={styles.moreProjectBtn}>More Projects</Button>
+                    <Button className={styles.moreProjectBtn}>Plus de projets</Button>
                 </a>
             </div>
         </React.Fragment>
